@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #abc span{
+            background-color: red;
+            font-size: 20vh;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font-weight: bolder;
+            
+        }
+        #abc >p{
+            background-color: blue;
+            font-size: 10vh;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        #abc +div{
+            background-color: brown;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+        #ab ~ p{
+            background-color: brown;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div id="abc">
+        <p>hello</p>
+        <p>hi</p>
+        <span> how are you </span>
+        <p>biii</p>
+    </div>
+    <div>
+        <p>other home childs</p>
+        <p>
+            2 child
+        </p>
+        <p>3 rd child</p>
+    </div>
+</body>
+</html>
